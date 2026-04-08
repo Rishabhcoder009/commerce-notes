@@ -56,7 +56,7 @@ const notesData = [
         subject: "English",
         icon: "📚",
         chapters: [
-            { name: "Chapter 1: The Last Lesson", pdf: "pdf/english/eng-ch1.pdf" },
+            { name: "Chapter 1: The Last Lesson", pdf: "pdf/english/hornbill/eng-ch1.pdf" },
             { name: "Chapter 2: Deep Water", pdf: "pdf/english/eng-ch2.pdf" },
             { name: "Chapter 3: The Rattrap", pdf: "pdf/english/eng-ch3.pdf" },
             { name: "Chapter 4: Indigo", pdf: "pdf/english/eng-ch4.pdf" },
