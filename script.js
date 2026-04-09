@@ -62,8 +62,7 @@ const notesData = [
             { name: "Chapter 4: Indigo", pdf: "pdf/english/eng-ch4.pdf" },
             { name: "Chapter 5: The Tiger King", pdf: "pdf/english/eng-ch5.pdf" },
             { name: "Chapter 6: The Third Level", pdf: "pdf/english/eng-ch6.pdf" },
-            { name: "Chapter 7: The Enemy", pdf: "pdf/english/eng-ch7.pdf" },
-            { name: "Chapter 8: The Portrait of a Lady", pdf: "pdf/english/eng-ch8.pdf" }
+            { name: "Chapter 7: The Enemy", pdf: "pdf/english/eng-ch7.pdf" }
         ]
     },
     {
