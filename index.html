@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete CBSE Class 11 Commerce Notes for Accountancy, Business Studies, Economics, English & Optional Subject">
+    <meta name="theme-color" content="#2563eb">
+    
+    <title>CBSE Class 11 Commerce Notes</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span class="logo-icon">🎓</span>
+            <span class="logo-text">CBSE Commerce</span>
+        </div>
+        <div class="header-controls">
+            <button class="icon-btn" onclick="toggleTheme()" title="Toggle Dark Mode">
+                <span class="icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Class 11 Commerce Notes</h1>
+        <p>Complete NCERT & CBSE Syllabus Notes for Accountancy, Business Studies, Economics, English & Optional Subject</p>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for subjects or chapters..." onkeyup="filterNotes()">
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2 class="section-title">Select a Subject</h2>
+        <div class="grid" id="subjectGrid">
+            <!-- Cards will be injected here by JS -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+       <h3>📞 Contact</h3>
+<p>Email: rishabhvachheta@gmail.com</p>
+<p>Email: yourname@gmail.com</p>
+<p>Phone: +91 6358849299 (Rishabh Vachheta)</p>
+<p>Phone: +91 9173532171 (Abhishek Vincent)</p>
+<br>
+        <p class="copyright">© 2026-2027 Commerce Notes</p>
+        <p>Made with ❤️ by Rishabh Vachheta</p>
+        <p>Content Credit- Abhishek Vincent</p>
+    </footer>
+
+    <!-- The Modal (For Chapters) -->
+    <div id="chapterModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Subject Name</h2>
+                <button class="close-btn" onclick="closeChapterModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="chapterBody">
+                <!-- Chapter List goes here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast">
+        <span id="toastMessage"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
